@@ -76,9 +76,10 @@ const Header = ({ siteTitle }) => (
   <SiteHeader>
     <Content>
       <p>
-        <HomeLink to="/">{siteTitle}</HomeLink>
+        <HomeLink to="/">O mnie</HomeLink>
         <NavLink to="/blog">Blog</NavLink>
-        <GitHubLink href="https://github.com/niklasmtj/gatsby-starter-julia">
+                <GitHubLink href="mailto:dev.mobiqu@gmail.com?subject=Kontakt ze strony https://mobiqu.netlify.app">Kontakt</GitHubLink>
+        <GitHubLink href="https://github.com/Piecio">
           GitHub
         </GitHubLink>
       </p>
